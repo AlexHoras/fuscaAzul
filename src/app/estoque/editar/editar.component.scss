@@ -1,0 +1,55 @@
+.edit{
+    padding: 15px;   
+    form{        
+        .texto{
+            margin-bottom: 45px;
+            h4{
+                font-size: 1.2em;
+                color: #2f2fa0;
+                font-weight: 600;
+            }
+            p{
+                font-size: 1em;
+                color: #7b7676;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+        }
+  
+        label{
+            font-size: 1em;
+            color: #2f2fa0;
+            font-weight: 600;
+        }
+        .adiciona{
+            padding: 10px;
+            border: 2px solid #2f2fa0;
+            color: #2f2fa0;
+            font-size: 1em;
+            font-weight: 800;
+            padding: 4px 18px;
+            margin: 15px; 
+            transition: all .7s ease-in-out;    
+            &:hover{
+                background: #2f2fa0;
+                color: #fff;
+                transition: all .5s ease-in-out;        
+            }
+        }
+        .remove{
+            padding: 10px;
+            border: 2px solid #8c0909;
+            color: #8c0909;
+            font-size: 1em;
+            font-weight: 800;
+            padding: 4px 18px;
+            margin: 15px; 
+            transition: all .7s ease-in-out;    
+            &:hover{
+                background: #8c0909;
+                color: #fff;
+                transition: all .5s ease-in-out;        
+            }
+        }
+    }
+}

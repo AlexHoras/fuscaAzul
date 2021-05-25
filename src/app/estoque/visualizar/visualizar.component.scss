@@ -1,0 +1,16 @@
+.visualizar{    
+    padding: 11px;
+    display: grid;
+    a{
+        margin-bottom: 2px;
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+        transition: all .4s ease-in-out;
+        &:hover{
+            color: #2f2fa0;
+            transform: scale(1.01);
+            transition: all .3s ease-in-out;
+        }
+    }   
+}

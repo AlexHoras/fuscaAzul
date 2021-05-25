@@ -1,0 +1,7 @@
+<ion-app>
+    <div class="visualizar">
+        <a [routerLink]="['editar',i]" *ngFor="let estoque of estoque; let i = index" >
+            ({{estoque.codigo}}){{estoque.descricao}} qtd {{estoque.quantidade}}/{{estoque.capacidade}} (min.{{estoque.minimo}})
+        </a>
+    </div>
+</ion-app>
